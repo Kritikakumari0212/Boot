@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FaceBook - log in or sign up</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="js/bootstrap.bundle.js" rel="stylesheet" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="container-fluid box">
+
+    <div class="row justify-content-evenly">
+      <div class="col-md-5 px-5 py-5  ">
+        <h1 class="fw-bold">facebook</h1>
+        <h4>Facebook helps you connect and share with the people in your life.</h4>
+
+      </div>
+      <div class="col-md-5 p-5">
+        <form class="shadow p-3 mb-5 bg-body-tertiary rounded">
+          <div class="mb-3 py-3">
+
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Email address or phone number">
+          </div>
+          <div class="mb-3">
+
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          
+          <button type="submit" class="btn btn-primary loginbtn">Log in</button>
+          <div class="mb-3 form-check text-center">
+            <a href="f">Forgotten password?</a>
+          </div>
+          <button type="button" class="btn btn-success Createact" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@fat">Create new account</button>
+
+        </form>
+        <h6><b>Create a page</b> for a celebrity, brand or business</h6>
+
+        <!--modal-->
+
+        <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      
+                      <h3 class="mt-4 mx-3">Sign Up</h3>
+                      <p class="mx-3">It's quick and easy.</p>
+                    <div class="modal-header"></div>
+                    <div class="modal-body">
+                      <form>
+                      <div class="row justify-content-evenly">
+                          
+                          <div class="col-md-6">
+                            <div class="mb-3">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="First Name"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="mb-3">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="Last Name"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-md-12">
+                            <div class="mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="Mobile number or email address"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-md-12">
+                            <div class="mb-3">
+                              <input
+                                type="password"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="New Password"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-3">
+
+                              <label for="exampleInputEmail1" class="form-label"
+                              >Date of birth</label>
+                            </div>
+                            
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="mb-3">
+                                <input
+                                  type="date"
+                                  class="form-control"
+                                  id="exampleInputEmail1"
+                                  aria-describedby="emailHelp"
+                                  placeholder="New Password"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                         
+                          <!-- <div class="row"> -->
+                            <div class="row">
+                              <div class="col-3">
+  
+                                <label for="exampleInputEmail1" class="form-label"
+                                >Gender</label>
+                              </div>
+                              
+                            </div>
+                          <div class="row">
+                            <div class="col-md-4">
+                              <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                              >
+                                Male
+                              </label>
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="flexRadioDefault2"
+                              />
+                            </div>
+                            <div class="col-md-4">
+                              <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                              >
+                                Female
+                              </label>
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="flexRadioDefault2"
+                              />
+                            </div>
+                            <div class="col-md-4">
+                              <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                              >
+                                Custom
+                              </label>
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="flexRadioDefault2"
+                              />
+                            </div>
+                            <!-- </div> -->
+                          </div>
+                          <p class="mt-5 modal_para">
+                            People who use our service may have uploaded your
+                            contact information to Facebook. Learn more.
+                            <br /><br />
+
+                            By clicking Sign Up, you agree to our Terms, Privacy
+                            Policy and Cookies Policy. You may receive SMS
+                            notifications from us and can opt out at any time.
+                          </p>
+
+                          <button
+                            type="button"
+                            class="btn btn-primary modal_signup mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            Sign Up
+                          </button>
+                        </form>
+                        <div class="col-md-5"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </form>
+
+    </div>
+  </div>
+
+  </div>
+  </div>
